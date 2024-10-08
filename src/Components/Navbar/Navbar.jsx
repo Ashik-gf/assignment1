@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from '../../util/Button/Button'
-
+import logo from "../../assets/images/logo/logo.svg"
 const Navbar = () => {
     return (
         <div class=" absolute left-0 top-0 z-40 flex w-full items-center bg-transparent">
@@ -8,7 +8,7 @@ const Navbar = () => {
                 <div class="relative -mx-4 flex items-center justify-between">
                     <div class="flex w-full items-center justify-between px-4 py-3">
                         <a href="index.html" class="navbar-logo block w-60 max-w-full px-4">
-                            <img src="/src/assets/images/logo/logo.svg" alt="logo" class="header-logo h-12" />
+                            <img src={logo} alt="logo" class="header-logo h-12" />
                         </a>
 
 
