@@ -4,7 +4,7 @@ import logo from "../../assets/images/logo/logo.svg"
 const Navbar = () => {
     return (
         <div class=" absolute left-0 top-0 z-40 flex w-full items-center bg-transparent">
-            <div class="container mx-12">
+            <div class="container lg:mx-12">
                 <div class="relative -mx-4 flex items-center justify-between">
                     <div class="flex w-full items-center justify-between px-4 py-3">
                         <a href="index.html" class="navbar-logo block w-60 max-w-full px-4">
@@ -41,8 +41,8 @@ const Navbar = () => {
 
                         </ul>
 
-                        <div class="sm:flex ">
-                            <Button title={'Sign In'} className={'flex-1 loginBtn px-[22px] py-2 text-base font-medium text-white hover:opacity-70'} />
+                        <div class=" w-full flex justify-end">
+                        <Button title={'Sign In'} className={'flex-1 loginBtn px-6 py-2 text-base font-medium text-white hover:opacity-70'} />
                             <Button title={"Sing Up"} className={"signUpBtn rounded-md bg-white bg-opacity-20 px-6 py-2 text-base font-medium text-white duration-300 ease-in-out hover:bg-opacity-100 hover:text-dark"} />
                         </div>
                     </div>

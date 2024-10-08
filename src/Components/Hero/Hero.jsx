@@ -2,7 +2,7 @@ import React from 'react'
 import Button from '../../util/Button/Button'
 import FramSvg from '../../util/FramSvg/FramSvg'
 import HomeSvg from '../../util/HomeSvg'
-
+import hero from "../../assets/images/hero/hero-image.png"
 
 const Hero = () => {
     return (
@@ -32,7 +32,7 @@ const Hero = () => {
                     <div class="w-full px-4">
                         <div class=" relative z-10 mx-auto max-w-[845px]">
                             <div class="mt-16">
-                                <img src="/src/assets/images/hero/hero-image.png" alt="hero"
+                                <img src={hero} alt="hero"
                                     class="mx-auto max-w-full rounded-t-xl rounded-tr-xl" />
                             </div>
                             <HomeSvg />
